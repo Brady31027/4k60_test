@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    div {
+      padding: 10px;
+      text-align: center;
+    }
+
+    b {
+      font-family: sans-serif;
+    }
+
+    #mainvid {
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+
+#sectl {
+  z-index: 1;
+  position: absolute;
+  width: 426px;
+  height: 240px;
+  top: 10px;
+  left: 10px;
+}
+
+#sectr {
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 426px;
+  height: 240px;
+}
+
+#secbl {
+  z-index: 3;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 426px;
+  height: 240px;
+}
+
+#secbr {
+  z-index: 3;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 426px;
+  height: 240px;
+}
+
+.myvideo {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<div id="mainvid">
+  <video class="myvideo" autoplay loop muted>
+        <source src="https://upload.wikimedia.org/wikipedia/commons/5/59/%284k%29_Wild_Animal_-_Ultra_HD_Video_TV_60fps_%282160p%29.webm" type="video/webm">
+  </video>
+</div>
+
+<div id="sectr">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="sectl">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="secbl">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="secbr">
+  <video secondary class="myvideo" autoplay loop muted>
+        <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4" type="video/mp4">
+  </video>
+</div>
+
+</body>
+</html>
+
+
